@@ -1,0 +1,380 @@
+/* ================ Global CSS Start ================== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: var(--font-family-OpenSans);
+    font-weight: normal;
+    font-style: normal;
+    color: var(--paragraph-color);
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.img,
+img {
+    max-width: 100%;
+    -webkit-transition: all 0.6s ease-out 0s;
+    -moz-transition: all 0.6s ease-out 0s;
+    transition: all 0.6s ease-out 0s;
+}
+
+a,
+.button {
+    -webkit-transition: all 0.6s ease-out 0s;
+    -moz-transition: all 0.6s ease-out 0s;
+    transition: all 0.6s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--black-color);
+    font-size: 18px;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a,
+button {
+    outline: medium none;
+}
+
+.relative {
+    position: relative;
+}
+
+table {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-OpenSans);
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+h1 {
+    font-size: 56px;
+    color: var(--heading-color);
+}
+
+h2 {
+    font-size: 48px;
+    color: var(--subHeading-color);
+}
+
+h3 {
+    font-size: 32px;
+    color: var(--othersHeading-color);
+}
+
+h4 {
+    font-size: 24px;
+    color: var(--othersHeading-color);
+}
+
+h5 {
+    font-size: 20px;
+    color: var(--othersHeading-color);
+}
+
+h6 {
+    font-size: 18px;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    color: var(--paragraph-color);
+    font-family: var(--font-family-OpenSans);
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+label {
+    color: var(--placeholder-color);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+*::-moz-selection {
+    background: var(--primary-color);
+    color: var(--white-color);
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: var(--primary-color);
+    color: var(--white-color);
+    text-shadow: none;
+}
+
+::selection {
+    background: var(--primary-color);
+    color: var(--white-color);
+    text-shadow: none;
+}
+
+*::-moz-placeholder {
+    color: var(--placeholder-color);
+}
+
+*::placeholder {
+    color: var(--placeholder-color);
+}
+/* ================ Global CSS Start ================== */
+/* ================ preloader CSS Start ================== */
+/* #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #9370db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #ba55d3;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #ff00ff;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+} */
+/* ================ preloader CSS end ================== */
+
+/*================== Common Class Start ================ */
+.surface-color-1 {
+    background: var(--surface-color-1);
+}
+.section-gap-top {
+    padding-top: 70px;
+}
+.section-gap-bottom {
+    padding-bottom: 70px;
+}
+.section-gap-y {
+    padding: 70px 0;
+}
+@media (max-width: 575px) {
+    .section-gap-y {
+        padding: 50px 0;
+    }
+}
+/* Section Heading */
+.heading-wrap {
+    margin-bottom: 40px;
+}
+h6.section-title {
+    padding: 5px 30px;
+    display: inline-block;
+    background: var(--surface-color-2);
+    border-radius: 30px;
+    color: var(--subHeading-color);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+h2.heading {
+    font-size: 48px;
+    line-height: 130%;
+    color: var(--subHeading-color);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+h3.heading {
+    margin-bottom: 15px;
+}
+p.subHeading {
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--paragraph-color);
+}
+
+@media (max-width: 575px) {
+    h6.section-title {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    h2.heading {
+        font-size: 30px;
+    }
+}
+/* Section Heading */
+
+/* =============== Buttons CSS Start ================*/
+a.btn {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    padding: 12px 36px;
+    border-radius: 30px;
+    transition: all 0.6s ease-in-out;
+    border: 1px solid var(--primary-color);
+}
+a.btn.primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+a.btn.primary:hover {
+    background: var(--secondary-color);
+}
+a.btn.secondary {
+    background: transparent;
+    color: var(--primary-color);
+}
+a.btn.secondary:hover {
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+a.text-btn {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+a.text-btn:hover {
+    color: var(--secondary-color);
+}
+@media (max-width: 575px) {
+    a.btn {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}
+/* =============== Buttons CSS End ================*/
+/* ==========Products Page CSS Start================= */
+
+.product-page {
+}
+.product-page .pro-card {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    height: calc(100%);
+}
+.product-page .pro-card .image {
+    background: var(--surface-color-1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.product-page .pro-card:hover .image img {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.product-page .pro-card .content {
+    padding: 20px;
+    background-color: var(--white-color);
+}
+/* ==========Products Page CSS End================= */
+
+/* ==========Products Details Page CSS ================= */
+.product-page {
+}
+.product-page .products-wrap {
+}
+.product-page .products-wrap .product-image {
+    width: 100%;
+    height: auto;
+    background: var(--surface-color-1);
+    overflow: hidden;
+}
+.product-content {
+}
+.product-content .product-detail {
+}
+.product-content .product-detail h4 {
+    margin-bottom: 16px;
+}
+/* ==========Products Details Page CSS End================= */

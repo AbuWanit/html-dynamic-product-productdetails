@@ -1,0 +1,94 @@
+[
+  {
+    "id": "1",
+    "image": "images/products/kids/kids-1.webp",
+    "name": "Kids S/J Dress Set",
+    "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi totam iure autem reprehenderit maxime vitae repellendus doloribus fuga quia.",
+    "material": "Material 1",
+    "style": "Style 1",
+    "category": "Kids",
+    "tags": ["tag1", "tag2", "tag3"]
+  },
+  {
+    "id": "2",
+    "image": "images/products/kids/kids-2.webp",
+    "name": "Kids Dress Set",
+    "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi totam iure autem reprehenderit maxime vitae repellendus doloribus fuga quia.",
+    "material": "Material 2",
+    "style": "Style 2",
+    "category": "Kids",
+    "tags": ["tag2", "tag3", "tag4"]
+  },
+  {
+    "id": "3",
+    "image": "images/products/kids/kids-3.webp",
+    "name": "Kid Fleeces Jacket Full Set",
+    "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi totam iure autem reprehenderit maxime vitae repellendus doloribus fuga quia.",
+    "material": "Material 3",
+    "style": "Style 3",
+    "category": "Kids",
+    "tags": ["tag1", "tag4"]
+  },
+  {
+    "id": "4",
+    "image": "images/products/men/man-1.webp",
+    "name": "Kids S/J Dress Set",
+    "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi totam iure autem reprehenderit maxime vitae repellendus doloribus fuga quia.",
+    "material": "Material 1",
+    "style": "Style 1",
+    "category": "Men's",
+    "tags": ["tag1", "tag2", "tag3"]
+  },
+  {
+    "id": "5",
+    "image": "images/products/men/man-2.webp",
+    "name": "Kids Dress Set",
+    "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi totam iure autem reprehenderit maxime vitae repellendus doloribus fuga quia.",
+    "material": "Material 2",
+    "style": "Style 2",
+    "category": "Men's",
+    "tags": ["tag2", "tag3", "tag4"]
+  },
+  {
+    "id": "6",
+    "image": "images/products/men/man-3.webp",
+    "name": "Kid Fleeces Jacket Full Set",
+    "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi totam iure autem reprehenderit maxime vitae repellendus doloribus fuga quia.",
+    "material": "Material 3",
+    "style": "Style 3",
+    "category": "Men's",
+    "tags": ["tag1", "tag4"]
+  },
+    {
+    "id": "7",
+    "image": "images/products/woman/woman-1.webp",
+    "name": "Kids S/J Dress Set",
+    "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi totam iure autem reprehenderit maxime vitae repellendus doloribus fuga quia.",
+    "material": "Material 1",
+    "style": "Style 1",
+    "category": "Woman's",
+    "tags": ["tag1", "tag2", "tag3"]
+  },
+  {
+    "id": "8",
+    "image": "images/products/woman/woman-2.webp",
+    "name": "Kids Dress Set",
+    "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi totam iure autem reprehenderit maxime vitae repellendus doloribus fuga quia.",
+    "material": "Material 2",
+    "style": "Style 2",
+    "category": "Woman's",
+    "tags": ["tag2", "tag3", "tag4"]
+  },
+  {
+    "id": "9",
+    "image": "images/products/woman/woman-3.webp",
+    "name": "Kid Fleeces Jacket Full Set",
+    "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi totam iure autem reprehenderit maxime vitae repellendus doloribus fuga quia.",
+    "material": "Material 3",
+    "style": "Style 3",
+    "category": "Woman's",
+    "tags": ["tag1", "tag4"]
+  }
+]
+
+
